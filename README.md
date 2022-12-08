@@ -1,9 +1,8 @@
 # mrvasani48
-Hey 👋🏽, I'm kishan vasani
+ Hey 👋🏽, I'm kishan vasani
 
  React + Node 
  
  Full Stack Developer 🚀 from India. 
 
-
-📫 How to reach me: vasanikishan48@gmail.com;
+📫 Feel free contact me : vasanikishan48@gmail.com ;
