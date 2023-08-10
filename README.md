@@ -32,4 +32,4 @@ Support Me
 <br/>
 <br/>
 
-<a href="https://www.buymeacoffee.com/mr.vasani48"><img style="width:200px "  src="https://coffeebede.ir/DashboardTemplateV2/app-assets/images/banner/default-yellow.svg" /></a>
+<a href="https://www.buymeacoffee.com/mr.vasani48"><img style="width:200px "  src="	https://cdn.buymeacoffee.com/uploads/gallery/4110635/2023-08-10/Screenshot_from_20230810_164037.png" /></a>
