@@ -1,7 +1,10 @@
 <div size="20px" align="center">Hi! My name is kishan Thank You for taking the time to view my GitHub Profile 💗</div>
 
-![snake gif](https://github.com/mrvasani48/mrvasani48/blob/output/github-contribution-grid-snake.svg)
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+</picture>
 
 ![1121317](https://user-images.githubusercontent.com/48970605/233646984-4c26ac3f-b567-4d38-8541-dfdbe371da9b.png) - 🔭
 I’m currently working as a FrontEnd Developer - 💬 Ask me about React, JavaScript, TypeScript
