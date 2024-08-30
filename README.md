@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="#">
-    <img src="https://raw.githubusercontent.com/1999AZZAR/1999AZZAR/readme/resources/img/grid-snake.svg" alt="snake"
+    <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake"
   /></a>
 </div>
 
