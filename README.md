@@ -113,11 +113,6 @@ I’m currently working as a FrontEnd Developer - 💬 Ask me about React, JavaS
 <hr />
 
 
-<a href="https://www.buymeacoffee.com/mr.vasani48">
-<img
-    style="width: 200px"
-    src="https://cdn.buymeacoffee.com/uploads/gallery/4110635/2023-08-10/Screenshot_from_20230810_164037.png@900w_0e.webp"
-/>
-</a>
+
 
 <a href="https://app.daily.dev/entwickler48"><img src="https://api.daily.dev/devcards/v2/ikRukdQL1T67zoIpg4GFq.png?type=default&r=102" width="356" alt="Kishan Vasani's Dev Card"/></a>
