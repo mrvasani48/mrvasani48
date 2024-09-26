@@ -115,4 +115,4 @@ I’m currently working as a FrontEnd Developer - 💬 Ask me about React, JavaS
 
 
 
-<a href="https://app.daily.dev/entwickler48"><img src="https://api.daily.dev/devcards/v2/ikRukdQL1T67zoIpg4GFq.png?type=default&r=102" width="356" alt="Kishan Vasani's Dev Card"/></a>
+<a href="https://app.daily.dev/entwickler48"><img src="https://api.daily.dev/devcards/v2/ikRukdQL1T67zoIpg4GFq.png?type=wide&r=ib3" width="652" alt="Kishan Vasani's Dev Card"/></a>
