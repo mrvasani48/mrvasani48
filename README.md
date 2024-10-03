@@ -1,12 +1,12 @@
-<div align="center" style="font-size:20px; margin-bottom: 20px;">
+<div align="center" style="font-size:'20px'; margin-bottom: '20px';">
   Hi! My name is Kishan. Thank You for taking the time to view my GitHub Profile 💗
 </div>
 
-<div align="center" style="margin-bottom: 40px;">
+<div align="center" style="margin-bottom: '40px';">
   I’m a passionate full-stack developer with 2 years and 10 months of experience. I specialize in building web applications using modern technologies like React.js, Node.js, and JavaScript frameworks. I focus on delivering high-performance solutions that enhance user experience, with a keen eye for design aesthetics.
 </div>
 
-<div align="center">
+<div align="center" style="margin-top: '40px';">
   <table>
     <tr>
       <td>
@@ -28,7 +28,7 @@
 <h3 align="left">Skills</h3>
 
 <div align="center">
-  <table width="100%"> 
+  <table > 
     <tr>
       <td align="center" >
         <h4>Frontend Development</h4>
