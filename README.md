@@ -4,7 +4,7 @@
 <h4></h4>
 
 <div align="center" style="margin-bottom: '40px';">
-  I’m a passionate full-stack developer with 2 years and 10 months of experience. I specialize in building web applications using modern technologies like React.js, Node.js, and JavaScript frameworks. I focus on delivering high-performance solutions that enhance user experience, with a keen eye for design aesthetics.
+  I’m a passionate full-stack developer with 2 years and 11 months of experience. I specialize in building web applications using modern technologies like React.js, Node.js, and JavaScript frameworks. I focus on delivering high-performance solutions that enhance user experience, with a keen eye for design aesthetics.
 </div>
 <h4></h4>
 <div align="center" style="margin-top: '40px';">
