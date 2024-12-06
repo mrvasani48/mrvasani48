@@ -94,6 +94,15 @@
           <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" />
           </a>
+            <a href="https://mongoosejs.com/" target="_blank" rel="noreferrer">
+            <img src="https://mongoosejs.com/docs/images/mongoose5_62x30_transparent.png" alt="mongodb" width="40" height="40" />
+          </a>
+            <a href="https://jwt.io/" target="_blank" rel="noreferrer">
+            <img src="https://jwt.io/img/pic_logo.svg" alt="mongodb" width="40" height="40" />
+          </a>
+            <a href="https://github.com/seppevs/migrate-mongo" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/seppevs/migrate-mongo/3753b2bc52436d06482efc8442d10e93960b83f8/migrate-mongo-logo.png" alt="mongodb" width="40" height="40" />
+          </a>
         </p>
       </td>
       <td align="center" >
