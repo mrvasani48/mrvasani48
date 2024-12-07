@@ -34,22 +34,22 @@
       <td align="center" >
         <h4>Frontend Development</h4>
         <p align="left">
-          <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+          <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" />
           </a>
-          <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+          <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
           </a>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
           </a>
-          <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+          <a href="https://getbootstrap.com" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="bootstrap" width="40" height="40" />
           </a>
-          <a href="https://mantine.dev/" target="_blank" rel="noreferrer">
+          <a href="https://mantine.dev/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://avatars.githubusercontent.com/u/79146003?v=4" alt="mantine" width="40" height="40" />
           </a>
-          <a href="https://mui.com/" target="_blank" rel="noreferrer">
+          <a href="https://mui.com/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://cdn.worldvectorlogo.com/logos/material-ui-1.svg" alt="mui" width="40" height="40" />
           </a>
         </p>
@@ -57,25 +57,25 @@
       <td align="center">
         <h4>JavaScript Frameworks and Tools</h4>
         <p align="left">
-          <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+          <a href="https://reactjs.org/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
           </a>
-          <a href="https://redux.js.org" target="_blank" rel="noreferrer">
+          <a href="https://redux.js.org" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40" />
           </a>
-          <a href="https://webpack.js.org" target="_blank" rel="noreferrer">
+          <a href="https://webpack.js.org" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40" />
           </a>
-          <a href="https://babeljs.io/" target="_blank" rel="noreferrer">
+          <a href="https://babeljs.io/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://babeljs.io/img/babel.svg" alt="babel" width="40" height="40" />
           </a>
-          <a href="https://react-hook-form.com/" target="_blank" rel="noreferrer">
+          <a href="https://react-hook-form.com/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXdKj0luKnS60quv6sXxn5JzSZ8Mk0kcFbAA&s" alt="react hook form" width="40" height="40" />
           </a>
-          <a href="https://formik.org/" target="_blank" rel="noreferrer">
+          <a href="https://formik.org/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBgyg7_iv3u1ITYHOeDFUufuFzOXGkFRahow&s" alt="formik" width="40" height="40" />
           </a>
-          <a href="https://vitejs.dev/" target="_blank" rel="noreferrer">
+          <a href="https://vitejs.dev/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://vitejs.dev/logo.svg" alt="vite" width="40" height="40" />
           </a>
         </p>
@@ -85,22 +85,22 @@
       <td align="center" >
         <h4>Backend Development</h4>
         <p align="left">
-          <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+          <a href="https://nodejs.org" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
           </a>
-          <a href="https://expressjs.com" target="_blank" rel="noreferrer">
+          <a href="https://expressjs.com" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqrpjR6BlhIURupUvh3679KLzUY3t68clDebgvTvlmgWIa9-PV65iOeqzTBygfEuGstR8&usqp=CAU" alt="express" width="40" height="40" />
           </a>
-          <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+          <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" />
           </a>
-            <a href="https://mongoosejs.com/" target="_blank" rel="noreferrer">
+            <a href="https://mongoosejs.com/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://mongoosejs.com/docs/images/mongoose5_62x30_transparent.png" alt="mongodb" width="40" height="40" />
           </a>
-            <a href="https://jwt.io/" target="_blank" rel="noreferrer">
+            <a href="https://jwt.io/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://jwt.io/img/pic_logo.svg" alt="mongodb" width="40" height="40" />
           </a>
-            <a href="https://github.com/seppevs/migrate-mongo" target="_blank" rel="noreferrer">
+            <a href="https://github.com/seppevs/migrate-mongo" target="_blank" rel="noreferrer"style="text-decoration: 'none';">
             <img src="https://raw.githubusercontent.com/seppevs/migrate-mongo/3753b2bc52436d06482efc8442d10e93960b83f8/migrate-mongo-logo.png" alt="mongodb" width="40" height="40" />
           </a>
         </p>
@@ -108,22 +108,22 @@
       <td align="center" >
         <h4>Others</h4>
         <p align="left">
-          <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+          <a href="https://www.docker.com/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40" />
           </a>
-          <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
+          <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png" alt="AWS" width="40" height="40" />
           </a>
-          <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+          <a href="https://git-scm.com/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
           </a>
-          <a href="https://www.microsoft.com/en-us/windows/" target="_blank" rel="noreferrer">
+          <a href="https://www.microsoft.com/en-us/windows/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXOr3ugi7Mhv3eBDVTKwmyYMv32CfEsc_bpDIJX5BJL5luwZreGRCDuTjRycrQqrwc6wY&usqp=CAU" alt="Windows" width="40" height="40" />
           </a>
-          <a href="https://www.apple.com/macos/" target="_blank" rel="noreferrer">
+          <a href="https://www.apple.com/macos/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrej1rT8EYBnX40g3dPrhnR473cLBwKTyAmA&s" alt="macOS" width="40" height="40" />
           </a>
-             <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+             <a href="https://www.linux.org/" target="_blank" rel="noreferrer" style="text-decoration: 'none';">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" />
           </a>
         </p>
