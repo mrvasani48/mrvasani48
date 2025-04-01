@@ -26,6 +26,8 @@
   </table>
 </div>
 
+---
+
 <h3 align="left">Skills</h3>
 
 <div align="center">
@@ -133,6 +135,12 @@
 </div>
 
 ---
-![Kishan's GitHub stats](https://github-readme-stats.vercel.app/api?username=mrvasani48&hide=contribs,prs)
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrvasani48&layout=compact&theme=tokyonight" width="400" height="200" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mrvasani48&show_icons=true&theme=radical" width="400" height="200" />
+</div>
+
+---
 
 ![1121317](https://user-images.githubusercontent.com/48970605/233646984-4c26ac3f-b567-4d38-8541-dfdbe371da9b.png) 
