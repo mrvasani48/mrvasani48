@@ -6,7 +6,7 @@
 <h4></h4>
 <div align="center" style="margin-bottom: 40px;">
   I’m a passionate full-stack developer with  
-  <img src="https://img.shields.io/badge/Experience-3_years,_0_months-blue" alt="experience badge" />  
+  <img src="https://img.shields.io/badge/Experience-3_years,_5_months-blue" alt="experience badge" />  
   of experience. I specialize in building web applications using modern technologies like React.js, Next.js, Node.js, and JavaScript frameworks. I focus on delivering high-performance solutions that enhance user experience, with a keen eye for design aesthetics.
 </div>
 
