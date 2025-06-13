@@ -31,19 +31,28 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 3. Calculate Experience
-      - name: Calculate experience
+      # 3. Calculate experience (years and months)
+      - name: Calculate experience (years and months)
         id: experience
         run: |
           START_DATE="2022-01-01"
           TODAY=$(date +%Y-%m-%d)
-          EXPERIENCE_YEARS=$(($(($(date +%s -d $TODAY) - $(date +%s -d $START_DATE))) / 31556952))
-          echo "years=${EXPERIENCE_YEARS}" >> $GITHUB_OUTPUT
+          
+          YEARS=$(($(date +%Y) - $(date -d "$START_DATE" +%Y)))
+          MONTHS=$(($(date +%m) - $(date -d "$START_DATE" +%m)))
+
+          if [ "$MONTHS" -lt 0 ]; then
+            YEARS=$((YEARS - 1))
+            MONTHS=$((MONTHS + 12))
+          fi
+
+          echo "years=${YEARS}" >> $GITHUB_OUTPUT
+          echo "months=${MONTHS}" >> $GITHUB_OUTPUT
 
       # 4. Update README.md experience badge
       - name: Replace experience in README.md
         run: |
-          sed -i "s/\(https:\/\/img\.shields\.io\/badge\/Experience-\)[0-9]\+_years/\1${{ steps.experience.outputs.years }}_years/" README.md
+          sed -i -E "s|(https://img\.shields\.io/badge/Experience-)[0-9]+_years,_*[0-9]*_months|\1${{ steps.experience.outputs.years }}_years,_${{ steps.experience.outputs.months }}_months|" README.md
 
       # 5. Commit README and SVGs
       - name: Commit changes
@@ -51,7 +60,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md dist/
-          git commit -m "Update experience and snake animation"
+          git commit -m "Update experience and snake animation" || echo "No changes to commit"
           git push
 
       # 6. Push SVGs to `output` branch
