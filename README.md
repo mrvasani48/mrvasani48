@@ -4,11 +4,12 @@
    Thank You for taking the time to view my GitHub Profile 💗
 </div>
 <h4></h4>
-<div align="center" style="margin-bottom: '40px';">
-   I’m a passionate full-stack developer with  
- <img src="https://img.shields.io/badge/Experience-3_years-blue" />
+<div align="center" style="margin-bottom: 40px;">
+  I’m a passionate full-stack developer with  
+  <img src="https://img.shields.io/badge/Experience-3_years,_0_months-blue" alt="experience badge" />  
   of experience. I specialize in building web applications using modern technologies like React.js, Next.js, Node.js, and JavaScript frameworks. I focus on delivering high-performance solutions that enhance user experience, with a keen eye for design aesthetics.
 </div>
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mrvasani48&label=Profile%20views&color=0e75b6&style=flat" alt="mrvasani48" /> </p>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mrvasani48" alt="mrvasani48" /></a> </p>
