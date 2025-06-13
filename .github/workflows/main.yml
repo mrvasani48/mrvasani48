@@ -1,41 +1,61 @@
-name: generate animation
+name: Generate Snake and Update Experience
 
 on:
-  # run automatically every 24 hours
   schedule:
-    - cron: "0 */24 * * *" 
-  
-  # allows to manually run the job at any time
-  workflow_dispatch:
-  
-  # run on every push on the master branch
+    - cron: "0 0 * * *"  # run daily at midnight UTC
+
+  workflow_dispatch:  # manual trigger
+
   push:
     branches:
-    - master
-    
-  
+      - master
 
 jobs:
-  generate:
-    permissions: 
+  generate_snake_and_experience:
+    permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
+
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
+      # 1. Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Generate the snake SVGs
+      - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-          
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
+
+      # 3. Calculate Experience
+      - name: Calculate experience
+        id: experience
+        run: |
+          START_DATE="2022-01-01"
+          TODAY=$(date +%Y-%m-%d)
+          EXPERIENCE_YEARS=$(($(($(date +%s -d $TODAY) - $(date +%s -d $START_DATE))) / 31556952))
+          echo "years=${EXPERIENCE_YEARS}" >> $GITHUB_OUTPUT
+
+      # 4. Update README.md experience badge
+      - name: Replace experience in README.md
+        run: |
+          sed -i "s/\(https:\/\/img\.shields\.io\/badge\/Experience-\)[0-9]\+_years/\1${{ steps.experience.outputs.years }}_years/" README.md
+
+      # 5. Commit README and SVGs
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md dist/
+          git commit -m "Update experience and snake animation"
+          git push
+
+      # 6. Push SVGs to `output` branch
+      - name: Push snake SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
